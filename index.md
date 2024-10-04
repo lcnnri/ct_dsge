@@ -4,7 +4,7 @@ Welcome to the replication package for the paper "Estimation of continuous-time 
 
 ## Quick Links
 - [Download the Replication Package](https://github.com/your-username/paper-replication-package/archive/main.zip)
-- [Detailed Instructions](docs/replication-guide.md)
+- [Detailed Instructions](README.md)
 - [Data Files](matlab/data/)
 - [Code Files](matlab/)
 
