@@ -9,4 +9,4 @@ Welcome to the replication package for the paper "Estimation of continuous-time 
 - [Code Files](matlab/)
 
 ## About
-This repository is maintained by Luca Neri and Juan Carlos Parra-Alvarez. Feel free to submit issues or contact me for any questions.
+This repository is maintained by Luca Neri and Juan Carlos Parra-Alvarez. Feel free to submit issues or contact us for any questions.
