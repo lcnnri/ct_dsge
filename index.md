@@ -4,7 +4,7 @@ Welcome to the replication package for the paper "Estimation of continuous-time 
 
 ## Quick Links
 - [Download the Replication Package](archive/ct_dsge_replication_package.zip)
-- [Detailed Instructions](README)
+- [Detailed Instructions](https://lcnnri.github.io/ct_dsge/)
 - [Data Files](matlab/data/)
 - [Code Files](matlab/)
 
