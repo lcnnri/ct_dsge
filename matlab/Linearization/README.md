@@ -15,5 +15,5 @@ The `Linearization` folder contains
 ### References
 
 For further details, please refer to the full paper:  
-*B.J. Christensen, L. Neri, and J.C. Parra-Alvarez, "Estimation of continuous-time linear DSGE models from discrete-time measurements" (2024) Journal of Econometrics (Forthcoming)*
+*B.J. Christensen, L. Neri, and J.C. Parra-Alvarez, "Estimation of continuous-time linear DSGE models from discrete-time measurements" Journal of Econometrics, forthcoming*
 This section contains materials related to Matlab for the project.
