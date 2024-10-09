@@ -1,6 +1,6 @@
-# Matlab Section
+# Matlab codes
 
-This section contains materials related to Matlab for the project.
+This section includes the folder containing the Matlab programs for the project
 
 - [main.m](main.m)
 - [Linearization](Linearization/)
