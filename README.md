@@ -15,7 +15,7 @@ For updates, please check the authors' webpages:
 - [Luca Neri](https://www.lneri.com)
 - [Juan Carlos Parra-Alvarez](https://jcparra-alvarez.weebly.com)
 
-For additional information, please contact the corresponding author: Bent Jesper Christensen, Department of Economics and Business Economics, Aarhus University, Fuglesangs Alle 4, 8210 Aarhus V, Denmark, [bjchristensen@econ.au.dk](mailto:bjchristensen@econ.au.dk).
+For additional information, please contact the corresponding author: *Bent Jesper Christensen*, Department of Economics and Business Economics, Aarhus University, Fuglesangs Alle 4, 8210 Aarhus V, Denmark, [bjchristensen@econ.au.dk](mailto:bjchristensen@econ.au.dk).
 
 ***
 ## Programs
