@@ -30,16 +30,20 @@ For additional information, please contact the corresponding author: Bent Jesper
  	- [main_table_7.m](main_table_7.m)	
 
 
-3) [check_identification_condition.m](check_identification_condition.m): checks if the rank and order conditions in Proposition 2 of Section 3 are satisfied. The file calls the function isIdentified.m to check if theta is locally identified.
-		user's choice 
-			choose_model = 1 % {1 2 3} = {F-SSR, S-SSR, EM-SSR}
-			choose_condition = 'a' % {'a','b','c'}, i.e., the conditions in Proposition 2
+3) [check_identification_condition.m](check_identification_condition.m): checks if the rank and order conditions in Proposition 2 of Section 3 are satisfied. The file calls the function [isIdentified.m](utils/isIdentified.m) to check if θ is locally identified.
+		user's choice:
+```matlab
+choose_model = 1` % {1 2 3} = {F-SSR, S-SSR, EM-SSR}
+choose_condition = 'a' % {'a','b','c'}, i.e., the conditions in Proposition 2
+``` 
+### Example:
 
-Example:
-	*[idFlag, OCflag] = ... % identification, cf. Proposition 2
-        		isIdentified(theta_hat,cfg,y,choose_condition); *
+```matlab
+	[idFlag, OCflag] = ... % identification, cf. Proposition 2
+        		isIdentified(theta_hat,cfg,y,choose_condition);
+```
+ - where `theta_hat` is the vector of estimated and calibrated parameters, `cfg` is the configuration settings, and `choose_condition` selects the condition (a, b, or c) of Proposition 2.
 
-where theta_hat is the vector of estimated and calibrated parameters, cfg is the configuration settings, and choose_condition selects the condition (a, b, or c) of Proposition 2.
 
 ***
 ## Folders
