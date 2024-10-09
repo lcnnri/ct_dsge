@@ -19,18 +19,18 @@ For additional information, please contact the corresponding author: Bent Jesper
 
 ***
 ## Programs
-1) [main.m](main.m): replicates Tables 4, 5, and 7 in Section 6 using the configurations described in the paper in one single run.
+1) [main.m](matlab/main.m): replicates Tables 4, 5, and 7 in Section 6 using the configurations described in the paper in one single run.
 
 2) main_table_*.m: replicates the specific table, Table *, in Section 6. 
 		user's choice:
 			Panel = 'a' for replicating panel a) (left)
 			Panel = 'b' for replicating panel b) (right)
-	- [main_table_4.m](main_table_4.m)
-	- [main_table_5.m](main_table_5.m)
- 	- [main_table_7.m](main_table_7.m)	
+	- [main_table_4.m](matlab/main_table_4.m)
+	- [main_table_5.m](matlab/main_table_5.m)
+ 	- [main_table_7.m](matlab/main_table_7.m)	
 
 
-3) [check_identification_condition.m](check_identification_condition.m): checks if the rank and order conditions in Proposition 2 of Section 3 are satisfied. The file calls the function [isIdentified.m](utils/isIdentified.m) to check if θ is locally identified.
+3) [check_identification_condition.m](matlab/check_identification_condition.m): checks if the rank and order conditions in Proposition 2 of Section 3 are satisfied. The file calls the function [isIdentified.m](utils/isIdentified.m) to check if θ is locally identified.
 		user's choice:
 ```matlab
 choose_model = 1` % {1 2 3} = {F-SSR, S-SSR, EM-SSR}
@@ -49,19 +49,19 @@ choose_condition = 'a' % {'a','b','c'}, i.e., the conditions in Proposition 2
 ## Folders
 The replication files in main_table_*.m and check_identification_condition.m automatically add the following required folders to Matlab's path:
 
-1) [utils/](utils/): set of routines for estimation of the model. 
+1) [utils/](matlab/utils/): set of routines for estimation of the model. 
 
-2) [Linearization/](Linearization/): set of routines to compute the solution of the linear DSGE model. These routines were written by SeHyoun Ahn, Greg Kaplan, Benjamin Moll, Thomas Winberry, and Christian Wolf for the article "When Inequality Matters for Macro and Macro Matters for Inequality," NBER Macroeconomics Annual 2017, volume 32. University of Chicago Press, 2017.
+2) [Linearization/](matlab/Linearization/): set of routines to compute the solution of the linear DSGE model. These routines were written by SeHyoun Ahn, Greg Kaplan, Benjamin Moll, Thomas Winberry, and Christian Wolf for the article "When Inequality Matters for Macro and Macro Matters for Inequality," NBER Macroeconomics Annual 2017, volume 32. University of Chicago Press, 2017.
 
-3) [model_loglin/](model_loglin/): folder that contains the files related to the model specification and solution. 
+3) [model_loglin/](matlab/model_loglin/): folder that contains the files related to the model specification and solution. 
 
-	3.1) [paramstructbase.m](model_loglin/paramstructurebase.m): set the model's parameter values.
+	3.1) [paramstructbase.m](matlab/model_loglin/paramstructurebase.m): set the model's parameter values.
 
-	3.2) [equilibrium_conditions_loglin.m](model_loglin/equilibrium_condtions_loglin.m): set the model's equilibrium conditions.
+	3.2) [equilibrium_conditions_loglin.m](matlab/model_loglin/equilibrium_condtions_loglin.m): set the model's equilibrium conditions.
 
-	3.3) [model_solution_loglin.m](model_loglin/model_solution_loglin.m): calls the routines in the folder Linearisation to compute the log-linear approximation to the model's solution, 	and writes the solution in the state space form of Section 2 (see Equations (2.1) and (2.2)).
+	3.3) [model_solution_loglin.m](matlab/model_loglin/model_solution_loglin.m): calls the routines in the folder Linearisation to compute the log-linear approximation to the model's solution, 	and writes the solution in the state space form of Section 2 (see Equations (2.1) and (2.2)).
 
-4) [data/](data/): folder containing the time series used in the estimation routines. Please see Section 6 for a description of the variables used. 
+4) [data/](matlab/data/): folder containing the time series used in the estimation routines. Please see Section 6 for a description of the variables used. 
 
 ## Instructions
 1. Clone this repository.
