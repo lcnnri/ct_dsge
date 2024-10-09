@@ -34,8 +34,8 @@ Note: The folder data/ contains the time series used in the estimation routines.
 			choose_condition = 'a' % {'a','b','c'}, i.e., the conditions in Proposition 2
 
 Example:
-	[idFlag, OCflag] = ... % identification, cf. Proposition 2
-        		isIdentified(theta_hat,cfg,y,choose_condition); 
+	*[idFlag, OCflag] = ... % identification, cf. Proposition 2
+        		isIdentified(theta_hat,cfg,y,choose_condition); *
 
 where theta_hat is the vector of estimated and calibrated parameters, cfg is the configuration settings, and choose_condition selects the condition (a, b, or c) of Proposition 2.
 
