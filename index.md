@@ -1,5 +1,3 @@
-# Estimation of continuous-time linear DSGE models from discrete-time measurements - Replication Package
-
 Welcome to the replication package for the paper "Estimation of continuous-time linear DSGE models from discrete-time measurements". This page provides everything you need to reproduce the results from the paper.
 
 ## Quick Links
