@@ -5,7 +5,7 @@ This folder is part of the replication package for the paper:
 
 ## Overview
 
-The `utils` folder contains 
+The **utils** folder contains 
 
 - [`bootstrap_Y2.m`](bootstrap_Y2.m)
 - [`configuration_settings.m`](configuration_settings.m)
