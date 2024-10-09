@@ -30,7 +30,7 @@ For additional information, please contact the corresponding author: *Bent Jespe
  	- [`main_table_7.m`](matlab/main_table_7.m)	
 
 
-3) [check_identification_condition.m](matlab/check_identification_condition.m): checks if the rank and order conditions in Proposition 2 of Section 3 are satisfied. The file calls the function [isIdentified.m](utils/isIdentified.m) to check if θ is locally identified.
+3) [`check_identification_condition.m`](matlab/check_identification_condition.m): checks if the rank and order conditions in Proposition 2 of Section 3 are satisfied. The file calls the function [isIdentified.m](utils/isIdentified.m) to check if θ is locally identified.
 		user's choice:
 ```matlab
 choose_model = 1` % {1 2 3} = {F-SSR, S-SSR, EM-SSR}
