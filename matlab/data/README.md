@@ -6,7 +6,7 @@ This folder is part of the replication package for the paper:
 ## Overview
 The `data` folder contains
 
-1. [dataset.xlsx](dataset.xlsx) contains U.S. on aggregate consumption, the average amount of hours worked and the interest rate for the period 1960:Q1 through
+1. [`dataset.xlsx`](dataset.xlsx) contains U.S. on aggregate consumption, the average amount of hours worked and the interest rate for the period 1960:Q1 through
 2019:Q4. All variables are obtained from the Federal Reserve Economic Data (FRED) database.
     -  **Aggregate consumption** is measured by monthly nominal personal consumption
       expenditures (`PCE`), deflated by the corresponding monthly price index (`PCEPI`).
