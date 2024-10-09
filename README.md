@@ -55,7 +55,7 @@ The replication files in main_table_*.m and check_identification_condition.m aut
 
 3) [model_loglin/](matlab/model_loglin/): folder that contains the files related to the model specification and solution. 
 
-	3.1) [`paramstructbase.m`](matlab/model_loglin/paramstructurebase.m): set the model's parameter values.
+	3.1) [`paramstructbase.m`](matlab/model_loglin/paramstructbase.m): set the model's parameter values.
 
 	3.2) [`equilibrium_conditions_loglin.m`](matlab/model_loglin/equilibrium_conditions_loglin.m): set the model's equilibrium conditions.
 
