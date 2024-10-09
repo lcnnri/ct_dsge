@@ -17,7 +17,7 @@ For updates, please check the authors' webpages:
 
 For additional information, please contact the corresponding author: Bent Jesper Christensen, Department of Economics and Business Economics, Aarhus University, Fuglesangs Alle 4, 8210 Aarhus V, Denmark, [bjchristensen@econ.au.dk](mailto:bjchristensen@econ.au.dk).
 
-======================================================================================================
+***
 ## Programs
 1) [main.m](main.m): replicates Tables 4, 5, and 7 in Section 6 using the configurations described in the paper in one single run.
 
@@ -39,7 +39,7 @@ Example:
 
 where theta_hat is the vector of estimated and calibrated parameters, cfg is the configuration settings, and choose_condition selects the condition (a, b, or c) of Proposition 2.
 
-======================================================================================================
+***
 ## Folders
 The replication files in main_table_*.m and check_identification_condition.m automatically add the following required folders to Matlab's path:
 
