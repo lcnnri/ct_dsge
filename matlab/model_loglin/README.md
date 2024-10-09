@@ -1,4 +1,4 @@
-# ct_dsge: `model_loglin` Folder
+# ct_dsge/model_loglin 
 
 This folder is part of the replication package for the paper:
 **"Estimation of continuous-time linear DSGE models from discrete-time measurements"**  
