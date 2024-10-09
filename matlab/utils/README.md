@@ -1,8 +1,7 @@
 # ct_dsge/utils
 
 This folder is part of the replication package for the paper:
-**"Estimation of continuous-time linear DSGE models from discrete-time measurements"**  
-*B.J. Christensen, L. Neri, and J.C. Parra-Alvarez*
+**"Estimation of continuous-time linear DSGE models from discrete-time measurements"** by *B.J. Christensen, L. Neri, and J.C. Parra-Alvarez*
 
 ## Overview
 
@@ -48,4 +47,4 @@ The `utils` folder contains
 ### References
 
 For further details, please refer to the full paper:  
-*B.J. Christensen, L. Neri, and J.C. Parra-Alvarez, "Estimation of continuous-time linear DSGE models from discrete-time measurements" (2024) Journal of Econometrics (Forthcoming)*
+*B.J. Christensen, L. Neri, and J.C. Parra-Alvarez, "Estimation of continuous-time linear DSGE models from discrete-time measurements" (2024) Journal of Econometrics, forthcoming*
