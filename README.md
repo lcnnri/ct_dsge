@@ -57,7 +57,7 @@ The replication files in main_table_*.m and check_identification_condition.m aut
 
 	3.1) [`paramstructbase.m`](matlab/model_loglin/paramstructurebase.m): set the model's parameter values.
 
-	3.2) [`equilibrium_conditions_loglin.m`](matlab/model_loglin/equilibrium_condtions_loglin.m): set the model's equilibrium conditions.
+	3.2) [`equilibrium_conditions_loglin.m`](matlab/model_loglin/equilibrium_conditions_loglin.m): set the model's equilibrium conditions.
 
 	3.3) [`model_solution_loglin.m`](matlab/model_loglin/model_solution_loglin.m): calls the routines in the folder Linearisation to compute the log-linear approximation to the model's solution, 	and writes the solution in the state space form of Section 2 (see Equations (2.1) and (2.2)).
 
