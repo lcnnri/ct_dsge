@@ -1,4 +1,4 @@
-# Replication Package: `Linearization` Folder
+# ct_dsge/Linearization
 
 This folder is part of the replication package for the paper:
 
