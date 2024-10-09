@@ -8,9 +8,42 @@ This folder is part of the replication package for the paper:
 
 The `utils` folder contains 
 
-1. [`equilibrium_conditions_loglin.m`](equilibrium_conditions_loglin.m) – The log-linearized equilibrium conditions of the continuous-time DSGE model
-2. [`paramstructbase.m`](paramstructbase.m) – A file with the calibrated parameter values used in the model solution
-3. [`model_solution_loglin.m`](model_solution_loglin.m) – Scripts that solve the DSGE model described in the paper
+- [bootstrap_Y2.m](bootstrap_Y2.m)
+- [configuration_settings.m](configuration_settings.m)
+- [DiscretizeSystem_wp4.m](DiscretizeSystem_wp4.m)
+- [disc_riccati_fast.m](disc_riccati_fast.m)
+- [display_results.m](display_results.m)
+- [doub.m](doub.m)
+- [estimate_theta2.m](estimate_theta2.m)
+- [EXPMcomputeIntegral.m](EXPMcomputeIntegral.m)
+- [Figure_smoothed_states.m](Figure_smoothed_states.m)
+- [getLL.m](getLL.m)
+- [get_minimal_state_representation.m](get_minimal_state_representation.m)
+- [hessian.m](hessian.m)
+- [include_measurement_error.m](include_measurement_error.m)
+- [invtrans.m](invtrans.m)
+- [isIdentified.m](isIdentified.m)
+- [KalmanFilter_mixed_freq.m](KalmanFilter_mixed_freq.m)
+- [KalmanFilter_mixed_freq_ABCD.m](KalmanFilter_mixed_freq_ABCD.m)
+- [KalmanFilter_Smoother_MixedFreq_ABCD.m](KalmanFilter_Smoother_MixedFreq_ABCD.m)
+- [KalmanFilter_Smoother_mixed_freq.m](KalmanFilter_Smoother_mixed_freq.m)
+- [load_calibrated_params.m](load_calibrated_params.m)
+- [load_empirical_data.m](load_empirical_data.m)
+- [load_palette.m](load_palette.m)
+- [numgrad.m](numgrad.m)
+- [perform_ml_estimation.m](perform_ml_estimation.m)
+- [prepareFilter_loglin.m](prepareFilter_loglin.m)
+- [qzdivct.m](qzdivct.m)
+- [qzswitch.m](qzswitch.m)
+- [rows.m](rows.m)
+- [save_workspace.m](save_workspace.m)
+- [setmyfig_out1.m](setmyfig_out1.m)
+- [SolveRiccati.m](SolveRiccati.m)
+- [table_configurations.m](table_configurations.m)
+- [trans.m](trans.m)
+- [transform_data.m](transform_data.m)
+- [vec.m](vec.m)
+- [vech.m](vech.m)
 
 ### References
 
