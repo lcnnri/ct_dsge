@@ -4,7 +4,7 @@ This folder is part of the replication package for the paper: **"Estimation of c
 
 ## Overview
 
-The *model_loglin* folder contains 
+The **model_loglin** folder contains 
 
 1. [`equilibrium_conditions_loglin.m`](equilibrium_conditions_loglin.m) – The log-linearized equilibrium conditions of the continuous-time DSGE model
 2. [`paramstructbase.m`](paramstructbase.m) – A file with the calibrated parameter values used in the model solution
