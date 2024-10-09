@@ -1,4 +1,4 @@
-# ct_dsge
+# [ct_dsge](https://lcnnri.github.io/ct_dsge/)
 Replication package for the paper "Estimation of continuous-time linear DSGE models from discrete-time measurements" by *B.J. Christensen, L. Neri and J.C. Parra-Alvarez*
 
 `README.md`: This file contains a description of the replication files for the empirical application in Section 6 of “Estimation of Continuous-time Linear DSGE Models from Discrete-time Measurements”  by *Bent Jesper Christensen, Luca Neri, and Juan Carlos Parra-Alvarez* (2024), Journal of Econometrics, forthcoming. 
